@@ -1,0 +1,45 @@
+.div1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-direction: reverse;
+}
+/*.div2{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: sample;
+    animation-duration: 5s;
+}
+ 
+.div3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: sample;
+    animation-duration: 5s;
+}*/
+
+@keyframes sample{
+    0%{
+        left: 0%;
+        border-radius: 0px;
+    }
+    50%{
+        left: 250px;
+        border-radius: 25px;
+    }
+    100%{
+        left: 500px;
+        border-radius: 50px;
+    }
+
+}
